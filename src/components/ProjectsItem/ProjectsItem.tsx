@@ -14,7 +14,7 @@ export const ProjectsItem = ({ className, count, title, ...props }: ProjectsItem
     dispatch(dellProject(count));
   };
   const openProject = (id: number) => {
-    navigate(`/tasks/${id}`);
+    navigate(`/todotest/tasks/${id}`);
   };
 
   return (
