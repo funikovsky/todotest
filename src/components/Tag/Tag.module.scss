@@ -1,0 +1,11 @@
+.tag {
+  text-align: center;
+  a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--main-gradient);
+    box-shadow: var(--button-shadow) 1px 1px 1px;
+    color: var(--main-text-color);
+  }
+}

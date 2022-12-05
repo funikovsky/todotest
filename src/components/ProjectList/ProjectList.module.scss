@@ -1,0 +1,10 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  &__empty {
+    text-align: center;
+    color: var(--gray-dark);
+  }
+}

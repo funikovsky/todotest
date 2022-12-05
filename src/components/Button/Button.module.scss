@@ -1,0 +1,16 @@
+.button {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  // background-color: var(--primary);
+  background: var(--main-gradient);
+  border: transparent;
+  box-shadow: var(--button-shadow) 1px 1px 1px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--main-text-color);
+  &:active {
+    transform: scale(0.95);
+  }
+}

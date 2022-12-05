@@ -1,0 +1,24 @@
+.li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & span {
+    margin-right: 10px;
+  }
+}
+
+.btn {
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 400;
+
+  :last-child {
+    margin-right: 0;
+  }
+}
+
+.projectTitle {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 24px;
+}

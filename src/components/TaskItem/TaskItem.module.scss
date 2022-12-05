@@ -1,0 +1,25 @@
+.taskItem {
+  list-style: none;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.taskCount {
+  margin-right: 5px;
+}
+
+.taskInfo {
+  display: flex;
+  column-gap: 10px;
+  flex-direction: column;
+}
+.taskTitle {
+  font-size: 18px;
+  font-weight: 700;
+}
