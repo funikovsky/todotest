@@ -6,9 +6,9 @@ import { Task } from './pages/Task';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MainLayout />}>
+      <Route path="/todotest" element={<MainLayout />}>
         <Route path="" element={<Projects />} />
-        <Route path="/tasks/:id" element={<Task />} />
+        <Route path="/todotest/tasks/:id" element={<Task />} />
         <Route path="*" element={<div> Страница не найдена</div>} />
       </Route>
     </Routes>
